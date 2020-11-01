@@ -1,0 +1,16 @@
+<h1>Users#index</h1>
+<%(0..100).each do |x| %> 
+<h1>
+<% if x % 2 == 0%>
+<%= x %>
+<% else %>
+<p>
+<font color = "red">
+<%= x %>
+</font>
+</p>
+<% end %>
+
+</h1>
+<% end %>
+<p>Find me in app/views/users/index.html.erb</p>
